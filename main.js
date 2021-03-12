@@ -118,7 +118,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = 'crying.gif';
+        elem4.src = 'lv2.png';
         elem4.setAttribute("height", "250");
         elem4.setAttribute("width", "300");
         document.getElementById("placehere").appendChild(elem4);
@@ -142,7 +142,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = 'happy.gif';
+        elem4.src = 'lv.jpg';
         elem4.setAttribute("height", "250");
         elem4.setAttribute("width", "300");
         document.getElementById("placehere").appendChild(elem4);
@@ -154,7 +154,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = 'soon.gif';
+        elem4.src = 'boo.jpg';
         elem4.setAttribute("height", "250");
         elem4.setAttribute("width", "300");
         document.getElementById("placehere").appendChild(elem4);
