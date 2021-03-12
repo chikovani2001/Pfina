@@ -16,7 +16,7 @@ function getItem(){
 
 
         var elem1 = document.createElement("img");
-        elem1.src = '/image/chimaro.png';
+        elem1.src = 'chimaro.png';
         elem1.setAttribute("height", "300");
         elem1.setAttribute("width", "450");
         elem1.setAttribute("alt", "chimaro");
@@ -30,7 +30,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/maria.jpg';
+        elem4.src = 'maria.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -42,7 +42,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/kendal.jpg';
+        elem4.src = 'kendal.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -54,7 +54,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/doc.jpg';
+        elem4.src = 'doc.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -66,7 +66,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/ara.jpg';
+        elem4.src = 'ara.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -79,7 +79,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/kaxaberi.jpg';
+        elem4.src = 'kaxaberi.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -91,7 +91,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/gigi.jpg';
+        elem4.src = 'gigi.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -105,7 +105,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/lomebi.jpg';
+        elem4.src = 'lomebi.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -118,7 +118,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/crying.gif';
+        elem4.src = 'crying.gif';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -130,7 +130,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/gigi.jpg';
+        elem4.src = 'gigi.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -142,7 +142,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/happy.gif';
+        elem4.src = 'happy.gif';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -154,7 +154,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/soon.gif';
+        elem4.src = 'soon.gif';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -167,7 +167,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/xum.jpg';
+        elem4.src = 'xum.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
@@ -180,7 +180,7 @@ function getItem(){
 
 
         var elem4 = document.createElement("img");
-        elem4.src = '/image/jolo.jpg';
+        elem4.src = 'jolo.jpg';
         elem4.setAttribute("height", "300");
         elem4.setAttribute("width", "450");
         document.getElementById("placehere").appendChild(elem4);
