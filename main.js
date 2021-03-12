@@ -185,7 +185,20 @@ function getItem(){
         elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
 
-    }      
+    }else if(variable == "ბერელა" ){
+        const elem3 = document.createElement('p');
+        elem3.innerText = 'შენ ნამდვილად საუკეთსო შეგეფერება ძმა:';
+        const target = document.querySelector('#intro');
+        target.parentNode.insertBefore(elem3, target);
+
+
+        var elem4 = document.createElement("img");
+        elem4.src = 'anj.jpg';
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
+        document.getElementById("placehere").appendChild(elem4);
+
+    }        
 
 
 
