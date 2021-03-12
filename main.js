@@ -17,8 +17,8 @@ function getItem(){
 
         var elem1 = document.createElement("img");
         elem1.src = 'chimaro.png';
-        elem1.setAttribute("height", "250");
-        elem1.setAttribute("width", "300");
+        elem1.setAttribute("height", "200");
+        elem1.setAttribute("width", "200");
         elem1.setAttribute("alt", "chimaro");
         document.getElementById("placehere").appendChild(elem1);
         
@@ -31,8 +31,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'maria.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
     }else if(variable == "მაჭა" ){
         const elem3 = document.createElement('p');
@@ -43,8 +43,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'kendal.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
     }else if(variable == "ოთო" ){
         const elem3 = document.createElement('p');
@@ -55,8 +55,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'doc.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
     }else if(variable == "ეკა" ){
         const elem3 = document.createElement('p');
@@ -67,8 +67,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'ara.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
 
     }else if(variable == "ელენე" ){
@@ -80,8 +80,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'kaxaberi.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
     }else if(variable == "გიგი" ){
         const elem3 = document.createElement('p');
@@ -92,8 +92,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'gigi.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
     }else if(variable == "ჯოლოხავა" ){
 
@@ -106,8 +106,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'lomebi.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
 
     }else if(variable == "ჩიქო" ){
@@ -119,8 +119,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'lv2.png';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
     }else if(variable == "ვაჟა" ){
         const elem3 = document.createElement('p');
@@ -131,8 +131,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'gigi.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
     }else if(variable == "გიორგი" ){
         const elem3 = document.createElement('p');
@@ -143,8 +143,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'lv.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
     }else if(variable == "ლიზი" ){
         const elem3 = document.createElement('p');
@@ -155,8 +155,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'boo.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
 
     }else if(variable == "ნონა" ){
@@ -168,8 +168,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'xum.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
 
     }else if(variable == "ლუკა" ){
@@ -181,8 +181,8 @@ function getItem(){
 
         var elem4 = document.createElement("img");
         elem4.src = 'jolo.jpg';
-        elem4.setAttribute("height", "250");
-        elem4.setAttribute("width", "300");
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
 
     }      
