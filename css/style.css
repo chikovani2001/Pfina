@@ -1,0 +1,155 @@
+  html { 
+    background: url(/image/back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.blink_me {
+    animation: blinker 1s linear infinite;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -5px;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+    
+  }
+
+
+.text{
+    margin-left: 5px;
+    color: chocolate;
+    font-size: 25px;
+    
+}
+
+ #input{
+    border-radius: 10px;
+    width: 200pxx;
+    height: 45px;
+    font-size: 25px;
+    color: chocolate;
+    opacity: 0.3;
+
+} 
+
+ #ready{
+     margin-left: 5px;
+     cursor: pointer;
+     color: brown;
+     opacity: 0.3;
+     width: 200px;
+     height: 53px;
+     border-radius: 10px;
+     font-size: 25px;
+ }
+ #ready:hover{
+    background-color: brown;
+    color:wheat;
+ }
+
+ .move{
+     margin-left: 1150px;
+     margin-top: 250px;
+ }
+
+
+ @media only screen and (max-width: 600px) {
+     
+   
+    .move{
+        margin-left: 270px;
+        margin-top: 150px;
+    }
+    .text{
+        margin-left: 5px;
+        color: chocolate;
+        font-size: 25px;
+        
+    }
+    
+     #input{
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        color: chocolate;
+        opacity: 0.3;
+    
+    } 
+    
+     #ready{
+         margin-left: 5px;
+         cursor: pointer;
+         color: brown;
+         opacity: 0.3;
+         width: 120px;
+         height: 35px;
+         border-radius: 10px;
+         font-size: 15px;
+     }
+     #ready:hover{
+        background-color: brown;
+        color:wheat;
+     }
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+    .move{
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+    .text{
+        margin-left: 5px;
+        color: white;
+        font-size: 25px;
+        
+    }
+    
+     #input{
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        color: chocolate;
+        opacity: 0.3;
+    
+    } 
+    .blink_me{
+        
+        margin-left: -145px;
+        font-size: 12px;
+    }
+
+     #ready{
+         cursor: pointer;
+         margin-top: 3px;
+         color: brown;
+         opacity: 0.3;
+         width: 120px;
+         height: 35px;
+         border-radius: 10px;
+         font-size: 15px;
+     }
+     #ready:hover{
+        background-color: brown;
+        color:wheat;
+     }
+    
+  
+  }
+
+  
+
+
+
+ 
+#refresh{
+    
+    border-radius: 10px;
+    background-color: chocolate;
+}
