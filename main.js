@@ -228,7 +228,35 @@ function getItem(){
         elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
 
-    }        
+    }else if(variable == "ნინო" ){
+        const elem3 = document.createElement('p');
+        elem3.style.color = 'white';
+        elem3.style.fontSize = '22px';
+        elem3.innerText = 'ნინო , შენ კაი გოგოხარ ალბათ ეს მამაკაცი შეგეფერება::';
+        const target = document.querySelector('#intro');
+        target.parentNode.insertBefore(elem3, target);
+
+
+        var elem4 = document.createElement("img");
+        elem4.src = 'ilo.jpg';
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
+        document.getElementById("placehere").appendChild(elem4);
+    }else if(variable == "ნანა" ){
+        const elem3 = document.createElement('p');
+        elem3.style.color = 'white';
+        elem3.style.fontSize = '22px';
+        elem3.innerText = 'ნანა , შენ ეს ლამასი ბიჭი შეგეფერება';
+        const target = document.querySelector('#intro');
+        target.parentNode.insertBefore(elem3, target);
+
+
+        var elem4 = document.createElement("img");
+        elem4.src = 'gigiy.jpg';
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
+        document.getElementById("placehere").appendChild(elem4);
+    }   
 
 
 
