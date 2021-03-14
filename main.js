@@ -12,7 +12,7 @@ function getItem(){
         const elem = document.createElement('p');
         elem.style.color = 'white';
         elem.style.fontSize = '22px';
-        elem.innerText = 'ოხ ანასტასიააა, შე ბული გოგო შენ შეგეფერება:';
+        elem.innerText = `ოხ ${variable}, შე ბული გოგო შენ შეგეფერება:`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem, target);
 
@@ -28,7 +28,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'ჯიქი ძმაო შენ ეს არშეგეფერება მარა გინდა და ჰა:';
+        elem3.innerText = `${variable} ძმაო შენ ეს არშეგეფერება მარა გინდა და ჰა:`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -42,7 +42,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'მაჭა ძმაო შენ ეს შეგეფერება, მარა არ გიმსახურებს:';
+        elem3.innerText = `${variable} ძმაო შენ ეს შეგეფერება, მარა არ გიმსახურებს:`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -99,7 +99,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'შენი ბედისწერაა:';
+        elem3.innerText = `${variable}შენი ბედისწერაა:`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -144,7 +144,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'შენი ბედისწერაც ესაა ლოგიკურად:';
+        elem3.innerText =  `${variable} შენი ბედისწერაც ესაა ლოგიკურად:`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -172,7 +172,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'ვხედავ ვიღაც ბიჭს რომლის სახელშიც - შემდეგი ასოები "იორგი" ურევია';
+        elem3.innerText = `ქალბატონო ${variable} ვხედავ ვიღაც ბიჭს რომლის სახელშიც - შემდეგი ასოები "იორგი" ურევია`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -187,7 +187,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'შენ ეს ვაჟბატონი შეგეფერება ქალბატონო:';
+        elem3.innerText = `შენ ეს ${variable} ვაჟბატონი შეგეფერება:`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -202,7 +202,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'შენ ნამდვილად საუკეთსო შეგეფერება ძმაუ:';
+        elem3.innerText = `შენ ${variable} ნამდვილად საუკეთსო შეგეფერება ძმა:`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -217,7 +217,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'შენ ნამდვილად საუკეთსო შეგეფერება ძმა:';
+        elem3.innerText = `შენ ${variable} ნამდვილად საუკეთსო შეგეფერება ძმა:`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -232,7 +232,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'ნინო , შენ კაი გოგოხარ ალბათ ეს მამაკაცი შეგეფერება::';
+        elem3.innerText = `${variable} , შენ კაი გოგოხარ ალბათ ეს მამაკაცი შეგეფერება::`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -246,21 +246,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'ნანა , შენ ეს ლამასი ბიჭი შეგეფერება';
-        const target = document.querySelector('#intro');
-        target.parentNode.insertBefore(elem3, target);
-
-
-        var elem4 = document.createElement("img");
-        elem4.src = 'gigiy.jpg';
-        elem4.setAttribute("height", "200");
-        elem4.setAttribute("width", "200");
-        document.getElementById("placehere").appendChild(elem4);
-    }else if(variable == "ანა" |variable == "ანი" ){
-        const elem3 = document.createElement('p');
-        elem3.style.color = 'white';
-        elem3.style.fontSize = '22px';
-        elem3.innerText = 'ნანა , შენ ეს ლამასი ბიჭი შეგეფერება';
+        elem3.innerText = `${variable} , შენ ეს ლამასი ბიჭი შეგეფერება`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -274,7 +260,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'ნანა , შენ ეს ლამასი ბიჭი შეგეფერება';
+        elem3.innerText = `${variable} , შენ ეს ლამასი გოგო შეგეფერება`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
@@ -288,7 +274,7 @@ function getItem(){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
-        elem3.innerText = 'ნანა , შენ ეს ლამასი ბიჭი შეგეფერება';
+        elem3.innerText = `${variable} , შენ ეს ლამასი გოგო შეგეფერება`;
         const target = document.querySelector('#intro');
         target.parentNode.insertBefore(elem3, target);
 
