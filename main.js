@@ -242,7 +242,7 @@ function getItem(){
         elem4.setAttribute("height", "200");
         elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
-    }else if(variable == "ნანა" ){
+    }else if(variable == "ნანა" | variable == "ანა" | variable == "ანი" | variable == "ნინი" | variable == "ლიზა" | variable == "მარი" | variable == "მარიამი" | variable == "თამო" | variable == "თამუნა"){
         const elem3 = document.createElement('p');
         elem3.style.color = 'white';
         elem3.style.fontSize = '22px';
@@ -256,7 +256,49 @@ function getItem(){
         elem4.setAttribute("height", "200");
         elem4.setAttribute("width", "200");
         document.getElementById("placehere").appendChild(elem4);
-    }   
+    }else if(variable == "ანა" |variable == "ანი" ){
+        const elem3 = document.createElement('p');
+        elem3.style.color = 'white';
+        elem3.style.fontSize = '22px';
+        elem3.innerText = 'ნანა , შენ ეს ლამასი ბიჭი შეგეფერება';
+        const target = document.querySelector('#intro');
+        target.parentNode.insertBefore(elem3, target);
+
+
+        var elem4 = document.createElement("img");
+        elem4.src = 'gigiy.jpg';
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
+        document.getElementById("placehere").appendChild(elem4);
+    }else if(variable == "ილია" |variable == "ილო" ){
+        const elem3 = document.createElement('p');
+        elem3.style.color = 'white';
+        elem3.style.fontSize = '22px';
+        elem3.innerText = 'ნანა , შენ ეს ლამასი ბიჭი შეგეფერება';
+        const target = document.querySelector('#intro');
+        target.parentNode.insertBefore(elem3, target);
+
+
+        var elem4 = document.createElement("img");
+        elem4.src = 'ilia.jpg';
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
+        document.getElementById("placehere").appendChild(elem4);
+    }else if(variable == "მამუკა" ){
+        const elem3 = document.createElement('p');
+        elem3.style.color = 'white';
+        elem3.style.fontSize = '22px';
+        elem3.innerText = 'ნანა , შენ ეს ლამასი ბიჭი შეგეფერება';
+        const target = document.querySelector('#intro');
+        target.parentNode.insertBefore(elem3, target);
+
+
+        var elem4 = document.createElement("img");
+        elem4.src = 'shsh.jpg';
+        elem4.setAttribute("height", "200");
+        elem4.setAttribute("width", "200");
+        document.getElementById("placehere").appendChild(elem4);
+    }
 
 
 
